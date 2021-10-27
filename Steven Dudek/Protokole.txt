@@ -1,0 +1,226 @@
+-DUDEK STEVEN-
+-PROTOKOL-
+-PROJEKT: SSS-
+-5AHEL-
+
+WE...Werkstätte
+L...Labor
+ZH...Zuhause
+S...Schule
+
+-8:15 – 09:50 | 10:32 - 11:30, 08.09.2021- L
+#Allgemeine Aufgabenstellung mit Zuteilung am Fr. 17.09.2021 Dateline beim Ministerium#
+#Bei Besprechungen versuchen immer mit Lehrer zu machen, Was ist das Problem? Lösungsvorschläge? Ergebnis?#
+#Aufgabeneinteilung und Aufgabenstellung + Erweiterungen festgelegt#
+#Testaufbau Solarzelle von Professor Fuchsberger#
+
+-12:35 - 14:04 | -14:44 - 15:55, 09.09.2021- L
+#Betreuer festgelegt (Prof. Fuchsberger)#
+#Blockschaltbild und Datenbanktext erstellen#
+#Blockschaltbild und Datenbanktext bearbeiten#
+#Fürs nächste mal komponentenliste, Zeitplan, Datenbanktext fertigstellen#
+#Konzeptschaltbild fertiggestellt#
+#Betreuungsprotokoll#
+
+-08:10 - 9:50 | 10:10 - 11:30, 14.09.2021 WE
+#Werkstätten Einführung#
+#Projekte mit Werkstättelehrer besprochen#
+#Lehrer Zuteilung#
+#Zweitmeinung von Fachlehrer Murth und Lipovski geholt#
+#Projekt wird kleiner, aufgrund der Mechanik und verschiedene Einwirkungen#
+#Datenbanktext bearbeitet#
+#Laborbuch führen bei Fachlehrer Baumgartner#
+#Software über App(Vorschlag)#
+#Bauteile rechachiert(Motor, Panel, Spindelmotor?!)#
+#Nachregelung von Solarmodulen?!#
+#König Korneuburg Solarpanels#
+
+-08:05 - 10:10 | 10:30 - 11:00 , 15.09.2021- L
+#mechanische Arbeit, mechanische Leistung und elektrische Leistung ausgerechnet (Bild)#
+#max ausrichtung bei prinzip_1 ist 45 Grad#
+#2 Prinzipien erstellt#
+#Spindelmotor Suche#
+#Nach reden mit Betreuer, großes Konzept kommt wieder in Frage wird am 16.09 besprochen#
+#Rest der Zeit -> Abwarten auf das Ergebnis von Herr Fuchsberger#
+
+-08:15 - 9:50 | 10:20 - 11:30, 21.09.2021- WE
+#Keine Sonne um Solarmodul zu testen#
+#Controller wird getestet#
+#Datenblatt raussuchen und die Werte übernehmen wie angegeben#
+#Internet nix funktionieren seit 8:00 -> keine Datenblattsuche oder Funktion des Solarpanels#
+#Solarcontroller auf fehler überprüft -> Funktioniert nicht#
+#Internet funktionierte erst um 10:50#
+#Datenblätter von controller angeschaut#
+#Solarpanel 20.1V -> Hohen strom = größeren Verbraucher#
+
+-12:30 - 14:50 | 15:10 - 15:55 , 16.09.2021- L
+#Solarpanel geholt, 2 Stück -> eines dünner eines Dicker, Länge gleich#
+#Laborbetreuer und Werkstättetbetreuer (Fuchsberger, Graupe) miteinander geredet#
+#Finale Abstimmung morgen mit Fachlehrer Baumgartner (Freitag 17.09.2021)#
+#Spindelmotor wird verwendet -> kein oder wenig Ruhestrom + Mechanik deutlich leichter#
+#Datebanktext Fertig machen#
+#Milestones besprechen#
+#Milestones fertig#
+#Für nächste woche -> Hardware überlegen, schaltnetzteil, Testen des Solarcontrollers, #
+#Messen des Solarpanels Strom und Spannung#
+
+-08:05 – 09:50 | 10:15 - 11:30, 22.09.2021- L
+#Panel gemessen mit Verbraucher Glühbirne strom Spannung#
+#Recherche Photodiode, Phototransistor, GPS Modul#
+#Mechanik teile gefunden + overview vom Gestell#
+#Kurzschlussstrom#
+
+-12:30 – 14:30 | 14:40 - 16:00, 23.09.2021- L
+#Fuchsberger im Gespräch mit Baumgartner#
+#Messung mit Leistungswidderstände#
+#Amperemeter anscheinend kaputt gemacht#
+#erneute Messung weil Ergebnis nicht Sinn gemacht hat#
+#Annahme dass Sonnellicht drinnen nicht richtig scheint#
+#Aufgaben für jeden aufgeteilt#
+#Kennlinien von photodiode und panel angeschaut#
+#kleine Solarpanel bekommen um Funktion zu testen und selber Kennlinie erstellen#
+#Simulation evtl machen#
+
+-08:00 - 9:45 | 10:15 - 11:30, 28.09.2021- WE
+#Solar regler ansteuern#
+#Akku anschließen#
+#H-Brücke oder Vierqudrantensteller nachgefragt#
+#panel nicht gemessen aufgrund wetter#
+#solar regler funktioniert aber kein verbraucheranschluss, aber funktioniert, kein akku/Batterie#
+
+
+-08:05 – 09:43 | 10:10 - 11:30, 29.09.2021- L
+#H-Brücken entwürfe anschauen, richtige raussuchen und verifizieren#
+#Dual H-Brücken zu komplex -> 2 H-Brücken#
+#Baumgartner hilfestellung gegeben#
+#Länge für linearen Antrieb ausgerechnet#
+#Bauteile für H-Brücke geholt#
+#Testentwurf für H-Brücke aufgebaut#
+#Testaufbau in Laborraum -> holzbox#
+#Testen morgen #
+
+-12:30 – 16:00, 30.09.2021- L
+#Blockschaltbild besprochen -> v3#
+#Präsentation mit Firma Fleck#
+#H-Brücke Aufbau#
+#getestet und gemessen, sehr viele Fehler#
+#Fehler: N und P mos verwechselt, Drähte haben gefehlt, Drain nicht miteinander verbunden, Source auf Versorgung, T4 Source mit GND verbunden#
+#Versorgung 10V, Eingangssignale Sinus 500Hz und 1kHz, 5V pp#
+
+-08:00 - 9:45 | 10:10 - 11:30, 05.10.2021- WE
+#Auseinandersetzung mit H-Brücke#
+#Entscheidung für L298#
+#ungeklärte Fragen mit Baumgartner und Graupe besprochen#
+#Simulation einer H-Brücke mit LTSpice#
+#Simulation ohne motor nicht zielführend, allerdings mit sehr schwierig und zu anspruchsvoll#
+#Laborbuch vergessen -> nachholen#
+#Panel getestet#
+
+-08:05 – 09:45 | 10:10 - 11:30, 06.10.2021- L
+#Recherche für anderen Anbieter für IC->nicht gefunden#
+#Möglichkeit als throughhole#
+#Streit mit Werkstättenlehrer#
+#Keine Bauteile bekommen#
+#Schachner Deutsch Schularbeit mit Stickd tutorial#
+
+-17:45 – 18:30, 06.10.2021- ZH -> Zeit außerhalb der Arbeitszeit in der Schule (45 Min)
+#Recherche über H-Brücke#
+#Fragen für Präsentation vorbereiten#
+
+-12:30 – 14:00 | 14:10-16:00, 07.10.2021- L
+#kleinere drehzahl höheres drehmoment#
+#Rückstellung vom solarpanel#
+#valenzband für dokumentation#
+#Neue Informationen gewonnen von Firma Fleck#
+#Neues Mechanische Konzept#
+#Drähte an brücke gelötet -> viel zu mühsam und nicht fest#
+#Print erstellen in Kicad#
+#wurde begonnen#
+
+-12:35 – 13:20, 07.10.2021- S -> Zeit außerhalb der Arbeitszeit in der Schule (45 Min)
+#Layout entwickeln#
+#EnA -> TTL + 5V -> muss auf 1 gesetzt werden damit er arbeiten kann#
+
+-21:33 – 22:05, 10.10.2021- ZH -> Zeit außerhalb der Arbeitszeit in der Schule (32 Min)
+#PCB Footprints zuweisen#
+#PCB erstellt, morgen in der schule nachfragen welche maße die widerstände haben#
+
+-08:05 - 9:50 | 10:10 - 11:30, 12.10.2021 WE
+#Rentabilitätsrechnung#
+#Laborbuch besprochen#
+#Milestonesdiagramm erneuern#
+#Layout angepasst#
+#PCB-Design ausgebessert#
+#viele Fehler und Verbesserungen#
+#Gerberview :/#
+#PCB fertig aber nix drucken#
+
+-08:00 – 09:40 | 10:04 - 11:30, 13.10.2021- L
+#Fachlehrer Offner PCB gezeigt -> globales entfernen#
+#In PCB 2 Pins für den ESP vergessen#
+#svg datei fürs ätzen#
+#Anzeigeprogram Inkscape#
+#Plott spiegeln und dann verkehrt auf die Platine legen#
+#Transparentpapier hat niemand außer vllt. Bauer#
+#Bauer ist nicht erreichbar(09:10) aufgrund einer lehrstunde kommt wieder um 10 Uhr#
+
+-12:45 – 14:10, 13.10.2021- S -> Zeit außerhalb der Arbeitszeit in der Schule (1h 25Min)
+#Groundflächenabstand zur Leiterbahn erhöhen#
+#anderer Drucker funktioniert gar nicht -> anlternative: muss gefräst werden#
+#Fachlehrer Graupe zur Unterstützung gezogen#
+#veränderungen an PCB front auf back kupfer gewchselt und gerber+drill dateien angelegt#
+
+-12:30 - 14:17 | 14:28 - 16:00, 14.10.2021- L
+#H-Brücken Komponenten gelötet#
+#fürs nächste mal Abstand zwischen den Widerständen bei den PCB erhöhen!#
+#Neue Hardware angeschaut -> Spannungsregler/DC-DC Wandler#
+#Spannungsregler schlechter als DC-DC Wandler#
+#TPS54331 hat niedrigen Rdson, für 3 Ampere geregelt und für Batteriebetriebene Schaltungen(5,12 und 24V) + Eco Modus#
+#Spannung am Ausgang mit Widerstandsdividierer einstellbar#
+#Vorraussetztung beide Motoren dürfen nicht gleichzeitig in Betrieb genommen werden!!!#
+
+-08:05 - 9:48 | 10:00 - 11:30, 19.10.2021 WE
+#H-Brücke überprüft#
+#auf dem Oszi den Ausgang angeschaut#
+#Die PWM-Signale angeschaut#
+#Motor drehte sich aber nur wenn ein Pin das Potenzial von Ground hat#
+#Output Leiterbahn löste sich ab, neu löten#
+#Fehlersuche#
+#TPS Bauteile ausgerechnet -> 24V auf 3,3V (ESP32 Versorgung)#
+#Fortschritt besprochen#
+#Sehr zurückliegend -> Dringendes Gespräch mit Baumgartner#
+
+-08:00 – 09:40 | 9:50 - 11:30, 20.10.2021- L
+#E-mail an Fuchsberger geschrieben wegen ln298 und TSP Dimensionierung#
+#Dimensionierung für Step down 24V -> 3.3V#
+#Auf Rs Bauteile raussuchen ob die Werte existent und lieferbar sind#
+#Drosselspule nicht verwendbar -> begrenzt den Strom#
+#Speicherspule!#
+#Werte ausgerechnet siehe One Note -> Labor#
+#LTSpice Simulation#
+#Ausgang unbelastet richtiges Ergebnis#
+#Ausgang mit Last komplett flasch#
+#Professor Diemberger GS Spannung erhöhen oder erniedrigen#
+#Taktrate ändern#
+#MOSFET Ändern -> HILFE!!!#
+
+-13:20 – 13:45, 20.10.2021- S -> Zeit außerhalb der Arbeitszeit in der Schule (25Min)
+#Simulation mit Baumgartner besprochen#
+#Möglichkeit die USB Ports für versorgung zu verwenden#
+#Strom der rauskommt ist nicht bekannt#
+#Weitermachen mit Step-Down#
+
+-12:30 - 16:00, 21.10.2021- L
+#Fuchsberger hat die Schaltung kontrolliert#
+#Falscher Widerstand eingelötet(1k)#
+#richtiger Wert 1 Ohm -> GROßER FEHLER !!!# 
+#Schaltung funktioniert#
+#Step Down Schaltung weitermachen#
+#MOSFET BSC028N06LS3 genommen -> 2,5A 6=rdson, geringe UGS#
+#UGS Pulse ist ca. 570kHz fix, 7V,#
+#Shottky Diode -> B530C ähnlich wie TPS B340A#
+#zweiter Kondensator für Spannungsspitzen#
+#mit den Werten von Spannung von UGS, Spule und Kondensator gespielt#
+#Ziel: 3.3V mit ca. 900mA -> 3.2 bis 3.5 V und Strom 800mA#
+#Wichtige Erkenntnisse siehe Doku-Rohversion#
+#Stückliste erstellen und bald bestellen!#
