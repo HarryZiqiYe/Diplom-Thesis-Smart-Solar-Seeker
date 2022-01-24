@@ -1,0 +1,30 @@
+Circuit: * C:\Users\steve\OneDrive\Desktop\Schule\5AHEL\Maturaprojekt\Simulation\H_Bruecke_30092021.asc
+
+Limiting rise time of source v3 to 5e-005
+Limiting fall time of source v3 to 5e-005
+Limiting rise time of source v2 to 5e-005
+Limiting fall time of source v2 to 5e-005
+WARNING: Node T1 is floating.
+WARNING: Node T3 is floating.
+
+WARNING: Less than two connections to node T1.  This node is used by R:U1:G.
+WARNING: Less than two connections to node T3.  This node is used by R:U3:G.
+Direct Newton iteration for .op point succeeded.
+
+Date: Tue Oct 05 10:25:01 2021
+Total elapsed time: 0.696 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 8018
+traniter = 7978
+tranpoints = 3265
+accept = 2690
+rejected = 575
+matrix size = 62
+fillins = 28
+solver = Alternate
+Matrix Compiler1: 5.53 KB object code size  4.0/4.5/[2.8]
+Matrix Compiler2: off  [2.6]/3.6/8.9
+
