@@ -1,0 +1,8 @@
+Step Down 3,3V done
+Step Down 5V done
+2x H-Brücken Module Bohrungen
+2x USB-Ports done
+Solarcontroller Bohrung aber nicht auf die Platine !
+Stromsensor Bohrungen
+3x Relayschaltung done
+GPS Modul Bohrungen
