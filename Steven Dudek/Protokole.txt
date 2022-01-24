@@ -224,3 +224,220 @@ S...Schule
 #Ziel: 3.3V mit ca. 900mA -> 3.2 bis 3.5 V und Strom 800mA#
 #Wichtige Erkenntnisse siehe Doku-Rohversion#
 #Stückliste erstellen und bald bestellen!#
+
+-08:00 - 11:00, 03.11.2021- L
+#Step Down (3.3V) in Kicad begonnen#
+#Bautteil TSP selber erstellen#
+#Probleme mit library#
+#nicht die Rechte um Bibliotheken zu ändern#
+#Footprint angefangen zu erstellen#
+#Durch Prof. Graupe hingewisen dass das footprint existiert#
+#Stichwort: SOIC Package#
+#unnötig Zeit investiert in die Erstellung des footprints#
+#Schaltung fertig#
+#als nächstes PCB#
+#Früher gegangen aufgrund Bauchschmerzen#
+
+-12:30 - 15:00, 04.11.2021- L (Nur bis 15 Uhr wegen Tag der offenen Tür)
+#Step Down PCB zuführen#
+#Problem Maße der Kondensatoren#
+#Viele Kondensatoren nicht in Werkstätte verfügbar, obwohl auf partdb verfügbar#
+#Neue gesucht 47µF 40V#
+#Doppelte Auslastung der Kondensatoren für die sicher Seite#
+#2 seitige Platine wegen SMD und THT#
+#nehmen Draht als Brücke zwischen beiden Seiten#
+#je höher die Kapazität desto schneller bedeutet im unseren fall mehr Geld wird investiert#
+
+-12:30 - 13:20, 05.11.2021- S -> Zeit außerhalb der Arbeitszeit in der Schule (50 Min)
+#Bauteilmaße für Kondensatoren gesucht#
+#Shottky Dioden Schaltung und PCB fertig#
+#nächstes mal fräsen#
+#nochmal nachfragen wegen den Plott und Drill Dateien#
+
+-08:45 - 11:30, 09.11.2021 WE (Bauchschmerzen)
+#Änderung des Konzepts#
+#zweiachsig aber mit kleineren panel und kleiner mechanik -> motoren mit weniger Leistung#
+#Bauteile angekommen außer diode#
+#Diode alternative suchen#
+#zuweisung fürs pcb -> fertig , für maße siehe doku roh#
+#suche nach dioden alternative#
+
+-08:10 - 11:30, 10.11.2021- L
+#Shottky-Diodensuche#
+#PCB-Design für step down#
+#doppelseitig so das alle smd und tht bauteile auf eine seite sind#
+#Kontakte auf beiden Seiten mit drahtbrücke#
+#PCB-fertig#
+#Probleme mit denkumstellung von doppelseitigen Print#
+
+-12:30 - 15:00, 11.11.2021- L (Nur bis 15 Uhr wegen Tag der offenen Tür)
+#Diode von Fuchsberger verifziert#
+#Bestellung wird heute gemacht und nächste Woche Dienstag/Mittwoch da sein#
+#Einstellung Netzgerät für Testschaltung H-Brücke#
+#Unterschied zwischen Bipolar und unipolar#
+#PCB-Design für H-Brücke erneuert und verbessert#
+#Schwierigkeiten beim Testaufbau Motor/Verkabelung#
+#Motor dreht sich nicht aber getestet das es funktioniert#
+#Print alles auf einer Seite machen weil doppelseitig fräsen nicht möglich ist#
+#nochmal getestet funktioniert -> Fehler: Falsche Verkabelung#
+
+-08:19 - 9:50 | 10:10 - 11:30, 16.11.2021 WE 
+#Step-Down Schaltung geändert auf einseitigen Print#
+#Diode und IC gespiegelt#
+#PCB-fertig#
+#Fachlehrer Graupe Datein fürs Fräsen der Platine gegeben#
+#Step-Down Schaltung für 5 V entwerfen#
+
+-14:15 - 14:45, 16.11.2021- S -> Zeit außerhalb der Arbeitszeit in der Schule (30 Min)
+#Platine wurde gefräst (3,3) -> fertig um 14:20#
+#Spule passt nicht durch die Bohrungen#
+#Angabe von Datenblatt falsche#
+#Kicad Bohrung 1,5mm -> Spule benötigt 1,7mm#
+#alles andere passt -> morgen nachbohren gehen#
+
+-08:10 - 11:30, 17.11.2021- L
+#Step Down PCB fertig#
+#wird gefräßt#
+#Löcher von 3,3 nachgebohrt -> Spule konnte nicht durchgesteckt werden#
+#Als nächstes schaltung für 3 USB-Schnitstellen#
+#Löten erst wenn Diode da ist#
+#Gespräch mit offner wegen lm317#
+#Thema: Strom erhöhen aber mit spannungsregler#
+#anderes Bauteil nehmen aufgrund der Verluste -> Step Down#
+#Schaltung mit lm317 + stromerhöhung gibts im datenblatt#
+#PCB fertig um 15:30#
+
+-12:15 - 16:00, 18.11.2021- L
+#restliche Bauteile für step down schaltungen geholt#
+#diode da !!!#
+#wird gelötet (Kereku)#
+#falscher widerstand eingelötet ergebnis war 3,3#
+#richtiger eingelötet Ergebnis war 5,3#
+#Aufbau mit lastwiderständen#
+#1 Ampere passt#
+#2 Ampere passt#
+#3 Ampere wegen widerstand nicht möglich gewesen -> nächste woche nochmal testen#
+#bei 1 und 2 Ampere nichts warm geworden#
+
+-08:00 - 11:30, 23.11.2021 WE 
+#Ganzen Tag wegen Erkältung gefehlt#
+
+-08:10 - 11:30, 24.11.2021- L
+#Step Down 3,3V gelötet#
+#Print fertig#
+#Lötkolben wurde nicht richtig warm#
+#Ergebnis beim Ausgang 3,33V#
+#Strommessung nicht erfolgreich ergebnis 40mA#
+#falscher messwiderstand genommen + ein messwiderstand wahrscheinlich kaputt#
+#morgen niochmal messen#
+#simulation angeschaut strom ist auch sehr niedrig :/#
+
+-12:30 - 16:00, 25.11.2021- L
+#3,3V funktioniert nicht#
+#Fehlersuche an koppelwiderstand, Spule und restliche Bautteile#
+#nach widerstände ausgelötet und neue -> immernoch fehler#
+#Vermutung Spule ist falsch#
+#Platine 3,3 V lötpad kaputt an koppelwiderstand#
+#stromrippel nächstes mal schauen ob konstant oder schwingt#
+
+-12:30 - 13:20, 26.11.2021- S -> Zeit außerhalb der Arbeitszeit in der Schule (50 Min)
+#Step Down 5V von Fuchsberger geholt#
+#in der Werkstätte das kaputte Lötauge am Spannungsteiler mit einer Drahtbrücke reperariert#
+#repariert beim Fachlehrer Graupe#
+#Schwierigkeiten beim entfernen vom Widerstand, da die Verbindungen zu lang waren um es rauszuführen#
+
+-08:00 - 11:30, 30.11.2021 WE
+#Step Down 5V neuen Widerstand eingelötet und getestet ob es funktioniert#
+#Ergebnis konstante 5,1V bei 1 Ampere(kein stärkeres Netzteil)#
+#Mit OSZI Stromrippel nachmessen#
+#Schaltung kontrolliert#
+#festgestellt das Ausgangskondensator nicht angeschlossen war + GND war auf 3V#
+#nachgelötet und nachgemessen#
+#funktioniert -> ab 2 Ohm bricht die Ausgangsspannung ein#
+
+-12:30 - 16:00, 02.12.2021- L
+#Stückliste für den Entwicklerboard erstellt#
+#Stückliste fertig#
+#Hälfte der Bauteile in der Werkstätte in den Laden von Fachlehrer Murth#
+#Relais und Schraubklemmen im Gang bei Fachlehrer Graupes Raum#
+#Sachen bei RS werden bestellt -> wurden kostengünstig bestellt dadurch verschieden Baugrößen#
+#Entwicklerboard in Kicad begonnen#
+#Scematic für die Step Downs fertig#
+#Komponenten auf Zettel -> siehe Bilder auf Handy#
+#nachgeschaut wegen USB Female Stecker#
+#Amazon link von Kereku in whatsappgruppe#
+ 
+-11:30 - 13:05, 03.12.2021- S -> Zeit außerhalb der Arbeitszeit in der Schule (1h 35Min)
+#Relai Aufbau und Dimensionen gewählt#
+#USB-A Pinout angeschaut#
+#KiCad scematic weiter gemacht#
+#4 Pin USB -> in Kicad 5, V-Bus ?#
+#Relai: Spulenspannung auf 3V#
+#Für die restlichen Module werden Bohrungen in der Platine angefertigt und draufgeschraubt#
+#ESP32 in Kicad libary nicht vorhanden -> selber bauen oder im Internet nachschauen#
+
+-08:00 - 11:30, 07.12.2021 WE
+#Gefehlt (Krank)#
+
+-08:00 - 11:30, 08.12.2021- L
+#Feiertag#
+
+-12:30 - 16:00, 09.12.2021- L
+#Besprechung mit Herr Fuchsberger#
+#h-brücken modul auf kicad nicht gefunden#
+#alles andere implementiert oder eingefügt#
+#library loader gedownloadet und scematics + footprints gedownloadet#
+#Bautteile für smd implemention gefunden#
+#module nicht als footprint benutzen stattdessen female pins oder schraubklemmen benutzen#
+
+-08:00 - 11:30, 14.12.2021 WE
+#relay raussuchen für geiegnete spannung und 3.3V steuerspannung#
+#kein internet, keine verbundung und kein netz!!!#
+#relay schaltungen angeschaut#
+#ansteuerung durch nfet lokigpegel#
+#2 relays mit 5V steuerspannung und 1 mit 24V#
+
+-08:00 - 11:30, 15.12.2021- L
+#Leiterbahnen kurz halten nach step down aufgrund der Stromhöhe#
+#Dicke der Leiterbahn erhöhen auf 4mm und verzinnen#
+#nach der kurzen Leiterbahn eine Steckverbindung -> female stecker#
+#Relais in rs rausgesucht: 176-2908 , 176-2925 , #
+#Alle scematics in kicad fertig(usb, step-down, relai)#
+#module werden auf die platine drangeschraubt#
+#16 Bohrungen für die module#
+
+-12:30 - 16:00, 16.12.2021- L
+#Aufbau für die präsentation am Dienstag#
+#Aufbau von stepdown, h-brücke, solarcontroller und netzteil#
+#relaischaltung mit Fuchsberger getestet -> funktioniert#
+#logikpegel mosfet besprochen -> wie erkennt man ein logikpegel -> Rdson , UGS#
+#Bauteile rausgesucht -> werden bestellt#
+
+-11:30 - 13:15, 03.12.2021- S -> Zeit außerhalb der Arbeitszeit in der Schule (1h 45Min)
+#schraubklemmen größe nachschauen#
+#scematic verbessern#
+#relay simulation in ltspice -> geschafft sogar mit voltage control switch :)#
+
+-08:00 - 11:30, 21.12.2021- L
+#Aufbau für die Präsentation#
+#verlängerte kabel für motor gelötet#
+#fazit des derzeitigen stands#
+#unabsichtlich 30v statt 24 angeschlossen#
+#nichts passiert außer stärkere wärme an mosfet, diode und dc-dc wandler#
+
+-08:00 - 11:30, 12.01.2022- L
+#KiCad Optimierung an den Entwicklerboard#
+#Schraubklemmen überall hinzugefügt##
+#Footprints für einige Bauteile hinzugefügt#
+
+-08:00 - 11:30, 18.01.2022- WE
+#Standbesprechung mit Fachlehrer Schueler#
+
+-08:00 - 11:30, 19.01.2022- L
+#PCB Zuweisungen#
+
+
+-12:30 - 16:00, 20.01.2022- L
+#PCB Zuweisungen#
+#grober Inhaltsverzeichnis plan#
+##
