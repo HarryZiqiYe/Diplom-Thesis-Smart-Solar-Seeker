@@ -1,0 +1,33 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 904
+D Current Sensor Development Tools INA219 DC Current Sensor Breakout
+F https://learn.adafruit.com/adafruit-ina219-current-sensor-breakout/downloads
+$ENDCMP
+#
+$CMP CD4020BNSR
+D CMOS 14-Stage Ripple-Carry Binary Counter/Divider
+F http://www.ti.com/lit/gpn/cd4020b
+$ENDCMP
+#
+$CMP EEEFH1H470L
+D Aluminium Electroyltic Capacitor, Radial
+F http://uk.rs-online.com/web/p/products/2158439
+$ENDCMP
+#
+$CMP ESP32-MINI-1_M503FH0000PH3Q0_
+D RF System on a Chip - SoC (ENGINEERING SAMPLES ONLY) SMD module, ESP32-U4WDH with 4 MB flash die inside, PCB antenna
+F https://www.espressif.com/sites/default/files/documentation/esp32-mini-1_datasheet_en.pdf
+$ENDCMP
+#
+$CMP ESP32-WROOM-32U__8MB_
+D WiFi Modules (802.11) SMD Module, ESP32-D0WD, 64Mbits SPI flash, UART mode, U.FL antenna connector
+F https://www.mouser.de/datasheet/2/891/esp32-wroom-32d_esp32-wroom-32u_datasheet_en-1365844.pdf
+$ENDCMP
+#
+$CMP NE555DR
+D Single Precision Timer
+F http://www.ti.com/lit/ds/symlink/ne555.pdf
+$ENDCMP
+#
+#End Doc Library
