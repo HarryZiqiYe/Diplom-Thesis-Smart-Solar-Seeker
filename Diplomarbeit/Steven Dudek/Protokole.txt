@@ -1,0 +1,701 @@
+-DUDEK STEVEN-
+-PROTOKOL-
+-PROJEKT: SSS-
+-5AHEL-
+
+WE...Werkstätte
+L...Labor
+ZH...Zuhause
+S...Schule
+
+KW 36:
+
+-8:15 – 09:50 | 10:32 - 11:30, 08.09.2021- L 4 Stunden
+#Allgemeine Aufgabenstellung mit Zuteilung am Fr. 17.09.2021 Dateline beim Ministerium#
+#Bei Besprechungen versuchen immer mit Lehrer zu machen, Was ist das Problem? Lösungsvorschläge? Ergebnis?#
+#Aufgabeneinteilung und Aufgabenstellung + Erweiterungen festgelegt#
+#Testaufbau Solarzelle von Professor Fuchsberger#
+
+-12:35 - 14:04 | -14:44 - 15:55, 09.09.2021- L 4 Stunden
+#Betreuer festgelegt (Prof. Fuchsberger)#
+#Blockschaltbild und Datenbanktext erstellen#
+#Blockschaltbild und Datenbanktext bearbeiten#
+#Fürs nächste mal komponentenliste, Zeitplan, Datenbanktext fertigstellen#
+#Konzeptschaltbild fertiggestellt#
+#Betreuungsprotokoll#
+
+KW 37:
+
+-08:10 - 9:50 | 10:10 - 11:30, 14.09.2021 WE 4 Stunden
+#Werkstätten Einführung#
+#Projekte mit Werkstättelehrer besprochen#
+#Lehrer Zuteilung#
+#Zweitmeinung von Fachlehrer Murth und Lipovski geholt#
+#Projekt wird kleiner, aufgrund der Mechanik und verschiedene Einwirkungen#
+#Datenbanktext bearbeitet#
+#Laborbuch führen bei Fachlehrer Baumgartner#
+#Software über App(Vorschlag)#
+#Bauteile rechachiert(Motor, Panel, Spindelmotor?!)#
+#Nachregelung von Solarmodulen?!#
+#König Korneuburg Solarpanels#
+
+-08:05 - 10:10 | 10:30 - 11:00 , 15.09.2021- L 4 Stunden
+#mechanische Arbeit, mechanische Leistung und elektrische Leistung ausgerechnet (Bild)#
+#max ausrichtung bei prinzip_1 ist 45 Grad#
+#2 Prinzipien erstellt#
+#Spindelmotor Suche#
+#Nach reden mit Betreuer, großes Konzept kommt wieder in Frage wird am 16.09 besprochen#
+#Rest der Zeit -> Abwarten auf das Ergebnis von Herr Fuchsberger#
+
+-12:30 - 14:50 | 15:10 - 15:55 , 16.09.2021- L 4 Stunden
+#Solarpanel geholt, 2 Stück -> eines dünner eines Dicker, Länge gleich#
+#Laborbetreuer und Werkstättetbetreuer (Fuchsberger, Graupe) miteinander geredet#
+#Finale Abstimmung morgen mit Fachlehrer Baumgartner (Freitag 17.09.2021)#
+#Spindelmotor wird verwendet -> kein oder wenig Ruhestrom + Mechanik deutlich leichter#
+#Datebanktext Fertig machen#
+#Milestones besprechen#
+#Milestones fertig#
+#Für nächste woche -> Hardware überlegen, schaltnetzteil, Testen des Solarcontrollers, #
+#Messen des Solarpanels Strom und Spannung#
+
+KW 38:
+
+-08:15 - 9:50 | 10:20 - 11:30, 21.09.2021- WE 4 Stunden
+#Keine Sonne um Solarmodul zu testen#
+#Controller wird getestet#
+#Datenblatt raussuchen und die Werte übernehmen wie angegeben#
+#Internet nix funktionieren seit 8:00 -> keine Datenblattsuche oder Funktion des Solarpanels#
+#Solarcontroller auf fehler überprüft -> Funktioniert nicht#
+#Internet funktionierte erst um 10:50#
+#Datenblätter von controller angeschaut#
+#Solarpanel 20.1V -> Hohen strom = größeren Verbraucher#
+
+-08:05 – 09:50 | 10:15 - 11:30, 22.09.2021- L 4 Stunden
+#Panel gemessen mit Verbraucher Glühbirne strom Spannung#
+#Recherche Photodiode, Phototransistor, GPS Modul#
+#Mechanik teile gefunden + overview vom Gestell#
+#Kurzschlussstrom#
+
+-12:30 – 14:30 | 14:40 - 16:00, 23.09.2021- L 4 Stunden
+#Fuchsberger im Gespräch mit Baumgartner#
+#Messung mit Leistungswidderstände#
+#Amperemeter anscheinend kaputt gemacht#
+#erneute Messung weil Ergebnis nicht Sinn gemacht hat#
+#Annahme dass Sonnellicht drinnen nicht richtig scheint#
+#Aufgaben für jeden aufgeteilt#
+#Kennlinien von photodiode und panel angeschaut#
+#kleine Solarpanel bekommen um Funktion zu testen und selber Kennlinie erstellen#
+#Simulation evtl machen#
+
+KW 39:
+
+-08:00 - 9:45 | 10:15 - 11:30, 28.09.2021- WE 4 Stunden
+#Solar regler ansteuern#
+#Akku anschließen#
+#H-Brücke oder Vierqudrantensteller nachgefragt#
+#panel nicht gemessen aufgrund wetter#
+#solar regler funktioniert aber kein verbraucheranschluss, aber funktioniert, kein akku/Batterie#
+
+-08:05 – 09:43 | 10:10 - 11:30, 29.09.2021- L 4 Stunden
+#H-Brücken entwürfe anschauen, richtige raussuchen und verifizieren#
+#Dual H-Brücken zu komplex -> 2 H-Brücken#
+#Baumgartner hilfestellung gegeben#
+#Länge für linearen Antrieb ausgerechnet#
+#Bauteile für H-Brücke geholt#
+#Testentwurf für H-Brücke aufgebaut#
+#Testaufbau in Laborraum -> holzbox#
+#Testen morgen #
+
+-12:30 – 16:00, 30.09.2021- L 4 Stunden
+#Blockschaltbild besprochen -> v3#
+#Präsentation mit Firma Fleck#
+#H-Brücke Aufbau#
+#getestet und gemessen, sehr viele Fehler#
+#Fehler: N und P mos verwechselt, Drähte haben gefehlt, Drain nicht miteinander verbunden, Source auf Versorgung, T4 Source mit GND verbunden#
+#Versorgung 10V, Eingangssignale Sinus 500Hz und 1kHz, 5V pp#
+
+KW 40:
+
+-08:00 - 9:45 | 10:10 - 11:30, 05.10.2021- WE 4 Stunden
+#Auseinandersetzung mit H-Brücke#
+#Entscheidung für L298#
+#ungeklärte Fragen mit Baumgartner und Graupe besprochen#
+#Simulation einer H-Brücke mit LTSpice#
+#Simulation ohne motor nicht zielführend, allerdings mit sehr schwierig und zu anspruchsvoll#
+#Laborbuch vergessen -> nachholen#
+#Panel getestet#
+
+-08:05 – 09:45 | 10:10 - 11:30, 06.10.2021- L 4 Stunden
+#Recherche für anderen Anbieter für IC->nicht gefunden#
+#Möglichkeit als throughhole#
+#Streit mit Werkstättenlehrer#
+#Keine Bauteile bekommen#
+#Schachner Deutsch Schularbeit mit Stickd tutorial#
+
+-17:45 – 18:30, 06.10.2021- ZH -> Zeit außerhalb der Arbeitszeit in der Schule (45 Min)
+#Recherche über H-Brücke#
+#Fragen für Präsentation vorbereiten#
+
+-12:30 – 14:00 | 14:10-16:00, 07.10.2021- L 4 Stunden
+#kleinere drehzahl höheres drehmoment#
+#Rückstellung vom solarpanel#
+#valenzband für dokumentation#
+#Neue Informationen gewonnen von Firma Fleck#
+#Neues Mechanische Konzept#
+#Drähte an brücke gelötet -> viel zu mühsam und nicht fest#
+#Print erstellen in Kicad#
+#wurde begonnen#
+
+-12:35 – 13:20, 07.10.2021- S -> Zeit außerhalb der Arbeitszeit in der Schule (45 Min)
+#Layout entwickeln#
+#EnA -> TTL + 5V -> muss auf 1 gesetzt werden damit er arbeiten kann#
+
+-21:33 – 22:05, 10.10.2021- ZH -> Zeit außerhalb der Arbeitszeit in der Schule (32 Min)
+#PCB Footprints zuweisen#
+#PCB erstellt, morgen in der schule nachfragen welche maße die widerstände haben#
+
+KW 41:
+
+-08:05 - 9:50 | 10:10 - 11:30, 12.10.2021 WE 4 Stunden
+#Rentabilitätsrechnung#
+#Laborbuch besprochen#
+#Milestonesdiagramm erneuern#
+#Layout angepasst#
+#PCB-Design ausgebessert#
+#viele Fehler und Verbesserungen#
+#Gerberview :/#
+#PCB fertig aber nix drucken#
+
+-08:00 – 09:40 | 10:04 - 11:30, 13.10.2021- L 4 Stunden
+#Fachlehrer Offner PCB gezeigt -> globales entfernen#
+#In PCB 2 Pins für den ESP vergessen#
+#svg datei fürs ätzen#
+#Anzeigeprogram Inkscape#
+#Plott spiegeln und dann verkehrt auf die Platine legen#
+#Transparentpapier hat niemand außer vllt. Bauer#
+#Bauer ist nicht erreichbar(09:10) aufgrund einer lehrstunde kommt wieder um 10 Uhr#
+
+-12:45 – 14:10, 13.10.2021- S -> Zeit außerhalb der Arbeitszeit in der Schule (1h 25Min)
+#Groundflächenabstand zur Leiterbahn erhöhen#
+#anderer Drucker funktioniert gar nicht -> anlternative: muss gefräst werden#
+#Fachlehrer Graupe zur Unterstützung gezogen#
+#veränderungen an PCB front auf back kupfer gewchselt und gerber+drill dateien angelegt#
+
+-12:30 - 14:17 | 14:28 - 16:00, 14.10.2021- L 4 Stunden
+#H-Brücken Komponenten gelötet#
+#fürs nächste mal Abstand zwischen den Widerständen bei den PCB erhöhen!#
+#Neue Hardware angeschaut -> Spannungsregler/DC-DC Wandler#
+#Spannungsregler schlechter als DC-DC Wandler#
+#TPS54331 hat niedrigen Rdson, für 3 Ampere geregelt und für Batteriebetriebene Schaltungen(5,12 und 24V) + Eco Modus#
+#Spannung am Ausgang mit Widerstandsdividierer einstellbar#
+#Vorraussetztung beide Motoren dürfen nicht gleichzeitig in Betrieb genommen werden!!!#
+
+KW 42:
+
+-08:05 - 9:48 | 10:00 - 11:30, 19.10.2021 WE 4 Stunden
+#H-Brücke überprüft#
+#auf dem Oszi den Ausgang angeschaut#
+#Die PWM-Signale angeschaut#
+#Motor drehte sich aber nur wenn ein Pin das Potenzial von Ground hat#
+#Output Leiterbahn löste sich ab, neu löten#
+#Fehlersuche#
+#TPS Bauteile ausgerechnet -> 24V auf 3,3V (ESP32 Versorgung)#
+#Fortschritt besprochen#
+#Sehr zurückliegend -> Dringendes Gespräch mit Baumgartner#
+
+-08:00 – 09:40 | 9:50 - 11:30, 20.10.2021- L 4 Stunden
+#E-mail an Fuchsberger geschrieben wegen ln298 und TSP Dimensionierung#
+#Dimensionierung für Step down 24V -> 3.3V#
+#Auf Rs Bauteile raussuchen ob die Werte existent und lieferbar sind#
+#Drosselspule nicht verwendbar -> begrenzt den Strom#
+#Speicherspule!#
+#Werte ausgerechnet siehe One Note -> Labor#
+#LTSpice Simulation#
+#Ausgang unbelastet richtiges Ergebnis#
+#Ausgang mit Last komplett flasch#
+#Professor Diemberger GS Spannung erhöhen oder erniedrigen#
+#Taktrate ändern#
+#MOSFET Ändern -> HILFE!!!#
+
+-13:20 – 13:45, 20.10.2021- S -> Zeit außerhalb der Arbeitszeit in der Schule (25Min)
+#Simulation mit Baumgartner besprochen#
+#Möglichkeit die USB Ports für versorgung zu verwenden#
+#Strom der rauskommt ist nicht bekannt#
+#Weitermachen mit Step-Down#
+
+-12:30 - 16:00, 21.10.2021- L 4 Stunden
+#Fuchsberger hat die Schaltung kontrolliert#
+#Falscher Widerstand eingelötet(1k)#
+#richtiger Wert 1 Ohm -> GROßER FEHLER !!!# 
+#Schaltung funktioniert#
+#Step Down Schaltung weitermachen#
+#MOSFET BSC028N06LS3 genommen -> 2,5A 6=rdson, geringe UGS#
+#UGS Pulse ist ca. 570kHz fix, 7V,#
+#Shottky Diode -> B530C ähnlich wie TPS B340A#
+#zweiter Kondensator für Spannungsspitzen#
+#mit den Werten von Spannung von UGS, Spule und Kondensator gespielt#
+#Ziel: 3.3V mit ca. 900mA -> 3.2 bis 3.5 V und Strom 800mA#
+#Wichtige Erkenntnisse siehe Doku-Rohversion#
+#Stückliste erstellen und bald bestellen!#
+
+KW 44:
+
+-08:00 - 11:00, 03.11.2021- L 3 Stunden
+#Step Down (3.3V) in Kicad begonnen#
+#Bautteil TSP selber erstellen#
+#Probleme mit library#
+#nicht die Rechte um Bibliotheken zu ändern#
+#Footprint angefangen zu erstellen#
+#Durch Prof. Graupe hingewisen dass das footprint existiert#
+#Stichwort: SOIC Package#
+#unnötig Zeit investiert in die Erstellung des footprints#
+#Schaltung fertig#
+#als nächstes PCB#
+#Früher gegangen aufgrund Bauchschmerzen#
+
+-12:30 - 15:00, 04.11.2021- L (Nur bis 15 Uhr wegen Tag der offenen Tür) 3 Stunden
+#Step Down PCB zuführen#
+#Problem Maße der Kondensatoren#
+#Viele Kondensatoren nicht in Werkstätte verfügbar, obwohl auf partdb verfügbar#
+#Neue gesucht 47µF 40V#
+#Doppelte Auslastung der Kondensatoren für die sicher Seite#
+#2 seitige Platine wegen SMD und THT#
+#nehmen Draht als Brücke zwischen beiden Seiten#
+#je höher die Kapazität desto schneller bedeutet im unseren fall mehr Geld wird investiert#
+
+-12:30 - 13:20, 05.11.2021- S -> Zeit außerhalb der Arbeitszeit in der Schule (50 Min)
+#Bauteilmaße für Kondensatoren gesucht#
+#Shottky Dioden Schaltung und PCB fertig#
+#nächstes mal fräsen#
+#nochmal nachfragen wegen den Plott und Drill Dateien#
+
+KW 45:
+
+-08:45 - 11:30, 09.11.2021 WE (Bauchschmerzen) 3 Stunden
+#Änderung des Konzepts#
+#zweiachsig aber mit kleineren panel und kleiner mechanik -> motoren mit weniger Leistung#
+#Bauteile angekommen außer diode#
+#Diode alternative suchen#
+#zuweisung fürs pcb -> fertig , für maße siehe doku roh#
+#suche nach dioden alternative#
+
+-08:10 - 11:30, 10.11.2021- L 4 Stunden
+#Shottky-Diodensuche#
+#PCB-Design für step down#
+#doppelseitig so das alle smd und tht bauteile auf eine seite sind#
+#Kontakte auf beiden Seiten mit drahtbrücke#
+#PCB-fertig#
+#Probleme mit denkumstellung von doppelseitigen Print#
+
+-12:30 - 15:00, 11.11.2021- L (Nur bis 15 Uhr wegen Tag der offenen Tür) 3 Stunden
+#Diode von Fuchsberger verifziert#
+#Bestellung wird heute gemacht und nächste Woche Dienstag/Mittwoch da sein#
+#Einstellung Netzgerät für Testschaltung H-Brücke#
+#Unterschied zwischen Bipolar und unipolar#
+#PCB-Design für H-Brücke erneuert und verbessert#
+#Schwierigkeiten beim Testaufbau Motor/Verkabelung#
+#Motor dreht sich nicht aber getestet das es funktioniert#
+#Print alles auf einer Seite machen weil doppelseitig fräsen nicht möglich ist#
+#nochmal getestet funktioniert -> Fehler: Falsche Verkabelung#
+
+KW 46:
+
+-08:19 - 9:50 | 10:10 - 11:30, 16.11.2021 WE 4 Stunden
+#Step-Down Schaltung geändert auf einseitigen Print#
+#Diode und IC gespiegelt#
+#PCB-fertig#
+#Fachlehrer Graupe Datein fürs Fräsen der Platine gegeben#
+#Step-Down Schaltung für 5 V entwerfen#
+
+-14:15 - 14:45, 16.11.2021- S -> Zeit außerhalb der Arbeitszeit in der Schule (30 Min)
+#Platine wurde gefräst (3,3) -> fertig um 14:20#
+#Spule passt nicht durch die Bohrungen#
+#Angabe von Datenblatt falsche#
+#Kicad Bohrung 1,5mm -> Spule benötigt 1,7mm#
+#alles andere passt -> morgen nachbohren gehen#
+
+-08:10 - 11:30, 17.11.2021- L 4 Stunden
+#Step Down PCB fertig#
+#wird gefräßt#
+#Löcher von 3,3 nachgebohrt -> Spule konnte nicht durchgesteckt werden#
+#Als nächstes schaltung für 3 USB-Schnitstellen#
+#Löten erst wenn Diode da ist#
+#Gespräch mit offner wegen lm317#
+#Thema: Strom erhöhen aber mit spannungsregler#
+#anderes Bauteil nehmen aufgrund der Verluste -> Step Down#
+#Schaltung mit lm317 + stromerhöhung gibts im datenblatt#
+#PCB fertig um 15:30#
+
+-12:15 - 16:00, 18.11.2021- L 4 Stunden
+#restliche Bauteile für step down schaltungen geholt#
+#diode da !!!#
+#wird gelötet (Kereku)#
+#falscher widerstand eingelötet ergebnis war 3,3#
+#richtiger eingelötet Ergebnis war 5,3#
+#Aufbau mit lastwiderständen#
+#1 Ampere passt#
+#2 Ampere passt#
+#3 Ampere wegen widerstand nicht möglich gewesen -> nächste woche nochmal testen#
+#bei 1 und 2 Ampere nichts warm geworden#
+
+KW 47:
+
+-08:00 - 11:30, 23.11.2021 WE 
+#Ganzen Tag wegen Erkältung gefehlt#
+
+-08:10 - 11:30, 24.11.2021- L 4 Stunden
+#Step Down 3,3V gelötet#
+#Print fertig#
+#Lötkolben wurde nicht richtig warm#
+#Ergebnis beim Ausgang 3,33V#
+#Strommessung nicht erfolgreich ergebnis 40mA#
+#falscher messwiderstand genommen + ein messwiderstand wahrscheinlich kaputt#
+#morgen niochmal messen#
+#simulation angeschaut strom ist auch sehr niedrig, weil Hurensohn#
+
+-12:30 - 16:00, 25.11.2021- L 4 Stunden
+#3,3V funktioniert nicht#
+#Fehlersuche an koppelwiderstand, Spule und restliche Bautteile#
+#nach widerstände ausgelötet und neue -> immernoch fehler#
+#Vermutung Spule ist falsch#
+#Platine 3,3 V lötpad kaputt an koppelwiderstand#
+#stromrippel nächstes mal schauen ob konstant oder schwingt#
+
+-12:30 - 13:20, 26.11.2021- S -> Zeit außerhalb der Arbeitszeit in der Schule (50 Min)
+#Step Down 5V von Fuchsberger geholt#
+#in der Werkstätte das kaputte Lötauge am Spannungsteiler mit einer Drahtbrücke reperariert#
+#repariert beim Fachlehrer Graupe#
+#Schwierigkeiten beim entfernen vom Widerstand, da die Verbindungen zu lang waren um es rauszuführen#
+
+KW 48:
+
+-08:00 - 11:30, 30.11.2021 WE 4 Stunden
+#Step Down 5V neuen Widerstand eingelötet und getestet ob es funktioniert#
+#Ergebnis konstante 5,1V bei 1 Ampere(kein stärkeres Netzteil)#
+#Mit OSZI Stromrippel nachmessen#
+#Schaltung kontrolliert#
+#festgestellt das Ausgangskondensator nicht angeschlossen war + GND war auf 3V#
+#nachgelötet und nachgemessen#
+#funktioniert -> ab 2 Ohm bricht die Ausgangsspannung ein#
+
+-12:30 - 16:00, 02.12.2021- L 4 Stunden
+#Stückliste für den Entwicklerboard erstellt#
+#Stückliste fertig#
+#Hälfte der Bauteile in der Werkstätte in den Laden von Fachlehrer Murth#
+#Relais und Schraubklemmen im Gang bei Fachlehrer Graupes Raum#
+#Sachen bei RS werden bestellt -> wurden kostengünstig bestellt dadurch verschieden Baugrößen#
+#Entwicklerboard in Kicad begonnen#
+#Scematic für die Step Downs fertig#
+#Komponenten auf Zettel -> siehe Bilder auf Handy#
+#nachgeschaut wegen USB Female Stecker#
+#Amazon link von Kereku in whatsappgruppe#
+ 
+-11:30 - 13:05, 03.12.2021- S -> Zeit außerhalb der Arbeitszeit in der Schule (1h 35Min)
+#Relai Aufbau und Dimensionen gewählt#
+#USB-A Pinout angeschaut#
+#KiCad scematic weiter gemacht#
+#4 Pin USB -> in Kicad 5, V-Bus ?#
+#Relai: Spulenspannung auf 3V#
+#Für die restlichen Module werden Bohrungen in der Platine angefertigt und draufgeschraubt#
+#ESP32 in Kicad libary nicht vorhanden -> selber bauen oder im Internet nachschauen#
+
+KW 49:
+
+-08:00 - 11:30, 07.12.2021 WE
+#Gefehlt (Krank)#
+
+-08:00 - 11:30, 08.12.2021- L
+#Feiertag#
+
+-12:30 - 16:00, 09.12.2021- L 4 Stunden
+#Besprechung mit Herr Fuchsberger#
+#h-brücken modul auf kicad nicht gefunden#
+#alles andere implementiert oder eingefügt#
+#library loader gedownloadet und scematics + footprints gedownloadet#
+#Bautteile für smd implemention gefunden#
+#module nicht als footprint benutzen stattdessen female pins oder schraubklemmen benutzen#
+
+KW 50:
+
+-08:00 - 11:30, 14.12.2021 WE 4 Stunden
+#relay raussuchen für geiegnete spannung und 3.3V steuerspannung#
+#kein internet, keine verbundung und kein netz!!!#
+#relay schaltungen angeschaut#
+#ansteuerung durch nfet lokigpegel#
+#2 relays mit 5V steuerspannung und 1 mit 24V#
+
+-08:00 - 11:30, 15.12.2021- L 4 Stunden
+#Leiterbahnen kurz halten nach step down aufgrund der Stromhöhe#
+#Dicke der Leiterbahn erhöhen auf 4mm und verzinnen#
+#nach der kurzen Leiterbahn eine Steckverbindung -> female stecker#
+#Relais in rs rausgesucht: 176-2908 , 176-2925 , #
+#Alle scematics in kicad fertig(usb, step-down, relai)#
+#module werden auf die platine drangeschraubt#
+#16 Bohrungen für die module#
+
+-12:30 - 16:00, 16.12.2021- L 4 Stunden
+#Aufbau für die präsentation am Dienstag#
+#Aufbau von stepdown, h-brücke, solarcontroller und netzteil#
+#relaischaltung mit Fuchsberger getestet -> funktioniert#
+#logikpegel mosfet besprochen -> wie erkennt man ein logikpegel -> Rdson , UGS#
+#Bauteile rausgesucht -> werden bestellt#
+
+-11:30 - 13:15, 16.12.2021- S -> Zeit außerhalb der Arbeitszeit in der Schule (1h 45Min)
+#schraubklemmen größe nachschauen#
+#scematic verbessern#
+#relay simulation in ltspice -> geschafft sogar mit voltage control switch :)#
+
+KW 51:
+
+-08:00 - 11:30, 21.12.2021- L 4 Stunden
+#Aufbau für die Präsentation#
+#verlängerte kabel für motor gelötet#
+#fazit des derzeitigen stands#
+#unabsichtlich 30v statt 24 angeschlossen#
+#nichts passiert außer stärkere wärme an mosfet, diode und dc-dc wandler#
+
+KW 2:
+
+-08:00 - 11:30, 12.01.2022- L 4 Stunden
+#KiCad Optimierung an den Entwicklerboard#
+#Schraubklemmen überall hinzugefügt##
+#Footprints für einige Bauteile hinzugefügt#
+
+KW 3:
+
+-08:00 - 11:30, 18.01.2022- WE 4 Stunden
+#Standbesprechung mit Fachlehrer Schueler#
+
+-08:00 - 11:30, 19.01.2022- L 4 Stunden
+#PCB Zuweisungen#
+
+-12:30 - 16:00, 20.01.2022- L 4 Stunden
+#PCB Zuweisungen#
+#grober Inhaltsverzeichnis plan#
+
+KW 4:
+
+-08:00 - 11:30, 25.01.2022- WE 4 Stunden
+#Layout verändern wegen ESP Versorgung#
+#ESP hängt jetzt an 5V#
+#Step Down 3.3V wird für zukünftige Versorgung für zB ein anderes Board dienen#
+#angenommen 3.3V sind aber 5V#
+#Layout an Relais verständnisvoll angeschrieben für Orientierung#
+#PCB Zuweisung#
+#Planänderung!!!#
+#Layouts und PCB der Module hinzufügen#
+#Layouts von allen Modulen eingefügt#
+#Layout wieder optimiert mit Label -> sonst zu ünübersichtlich#
+#Schaltungsaufbau von module besprochen#
+
+-14:10 - 15:30, 25.01.2022- S -> Zeit außerhalb der Arbeitszeit in der Schule (1h 20Min)
+#Layouts hinzugefügt (Module)#
+#Dokumentation -> Step Down#
+
+-08:00 - 11:30, 26.01.2022- L 4 Stunden
+#Module zum Layout hinzugefügt#
+#Layouts zum Schaltplan integriert#
+#mehrere Male Überprüft auch mit Herr Kereku#
+#PCB Layouts bzw. Zuweisung der Schaltsymbole#
+
+-14:10 - 15:30, 26.01.2022- S -> Zeit außerhalb der Arbeitszeit in der Schule (1h 20Min)
+#Dokumentation -> Step Down#
+#Notiz emv beim einmaligen Protoyp kein problem -> für firmenapplikationen großes Problem -> Prüfstelle stellt das fest#
+
+-12:30 - 18:15, 27.01.2022- L , L -> Zeit außerhalb der Arbeitszeit in der Schule (2h 15Min)
+#PCB erstellt für module#
+#fehlt nur noch h-brücke#
+#Layout mit power ground pins verbunden#
+#Mechanik versucht die bohrungen bei kugellager größer zu machen#
+#um das problem mit der blockade zu verringern#
+#tipp: kugellader mit fett einfetten#
+#möglicherweise spaanung zu niedrig und dreht nicht richtig#
+#wmsmtvideo yt kanal von murth für extra kicad tipps#
+
+-11:35 - 12:10, 28.01.2022- S -> Zeit außerhalb der Arbeitszeit in der Schule (35Min)
+#Projekt im Unterrichtssraum von Melchert gebracht#
+#E-Mail an Fuchsberger verschickt (Bilder)#
+#Batterie funktioniert -> 12.3V#
+
+KW 5:
+
+-08:00 - 11:30, 01.02.2022- WE 4 Stunden
+#l298n modul maße genommen#
+#module in kicad erstellt#
+#bohrungen und außenmaße integriert#
+#fehlen tut schraubklemmen und female pins#
+#kleines solarpanel gemessen#
+
+-08:00 - 12:30, 02.02.2022- L 4 Stunden 30 Minuten
+#Modul L298n mit pads bestückt#
+#Mit Absprache zweier Lehrer macht es kein Sinn H-Brücke und SC zu implementieren#
+#Aufgrund des Aufbaues werden zu den Modulen keine Leiterbahn gehen sonder Kabel#
+#bedeutet das der Aufbau im Layout unnötig war#
+#Neuer Plan: Erwähnte Module entfernen und benötigte Pins ins Layout hinzufügen#
+#Denkfehler bei der Implemention#
+#Hilfestellung siehe Bilder(Handy)#
+
+-14:10 - 18:10, 02.02.2022- L -> Zeit außerhalb der Arbeitszeit in der Schule (4h 00Min)
+#Layout verändert mit richtigen Pins#
+#Neue annotation und Netzliste#
+#PCB Zuweisung muss verändert bzw. neue hinzugefügt werden#
+#Wegen PCB-Zuweisung oben in der Werkstätte nachfragen (Schraubklemmen in kicad, PinSockets maße und USB-Anschluss gibt es?)#
+#Layout fertig (hoffentlich)#
+#Test mit der Regelung(Nachführung)#
+
+-11:30 - 12:30, 03.02.2022- L -> Zeit außerhalb der Arbeitszeit in der Schule (1h 00Min)
+#Maße von beiden Relais genommen und PCB Zuweisung gemacht#
+#beide verwechselt mit der Bauform A und C#
+#logikpegel mosfet maße genommen und PCB Zuweisung gemacht#
+
+-14:10 - 18:10, 03.02.2022- L 4 Stunden
+#Besprechung mit Fuchsberger (27Min)#
+#individuelles Inhaltsverzeichnis geschrieben#
+#Footprint Zuweisungen bei relay und esp geändert#
+#falsche Pinbelegungen wurde geändert und neues PCB erstellt/eingefügt#
+
+KW 6:
+
+-17:00 - 19:00, 07.02.2022- ZH -> Zeit außerhalb der Arbeitszeit in der Schule (2h 00Min)
+#Kicad auf PC installiert#
+#Bibliotheken eingefügt#
+#PCB gleichgeblieben -> es kann weiter gearbeitet werden#
+#Leiterbahnbreite bei tps ic muss unter 0.7mm betragen -> 0.6#
+#leiterbahnen mit 1 hälfte von 1 step down schaltung verbunden#
+
+-18:10 - 19:00, 19:45 - 21:45, 09.02.2022- ZH -> Zeit außerhalb der Arbeitszeit in der Schule (2h 50Min)
+#beide step down schaltungen fast alles verbunden#
+#Hilfe bei den vias#
+#relai schaltung begonnen#
+#wieder probleme mit den vias#
+#eventl. wieder änderungen am schaltplan aufgrund der zugefügten Module#
+#Module haben keinen direkten Anschluss -> direkter aufbau mit kabel#
+#Betroffen sind GPS Modul und Stromsensor#
+#also wirklich alle Module außer den esp#
+
+-14:30 - 16:30, 10.02.2022- ZH -> Zeit außerhalb der Arbeitszeit in der Schule (2h 00Min)
+#Hilfe von Herr Studner genommen -> PCBGod#
+#Taste "</>" für Via verwenden!#
+#einfach für die lötpins auf den modulen wird pin header eingelötet#
+#module bleiben drin#
+#durchkontaktierungen eingebunden#
+#step down und realai schaltung komplett verbunden#
+#wichtig: nicht die maße der Leiterbahn vergessen !!!#
+
+-18:15 - 20:30 , 11.02.2022- ZH -> Zeit außerhalb der Arbeitszeit in der Schule (3h 45Min)
+#Großteils alles miteinander verbunden und Modul Bohrungen eingefügt#
+#Jetzt alles nach den Step Down Schaltungen muss mit 4mm breite Leiterbahn gelegt werden#
+#Betroffen ist die RelaiSchaltung, USB und theoretisch die H-Brücken#
+#4mm größtenteil einfach nicht möglich aufgrun der lötpads von smd und tht bauteilen#
+#könnte es verbessern indem man die lötpads größer stellt, aber dafür keinbe zeit#
+#Sollte aber für den kurzen Leistungsverbrauch keine großen Probleme darstellen#
+
+KW 7:
+
+-08:00 - 11:30, 15.02.2022- WE 4 Stunden
+#PCB kleine Verbesserungen wie richtige Breite der Leiterbahn#
+#T-Verbindungen richtig verbunden#
+#Gerade Kupfer Leiterbahnen#
+#Kupferflächen eingefügt#
+
+-11:30 - 12:00, 15.02.2022- L -> Zeit außerhalb der Arbeitszeit in der Schule (30Min)
+#PCB fertiggestellt#
+#Name und Projekt nachträglich auf die Platine eingefügt#
+#Gerber und Drill Dateien an Fachlehrer Graupe weitergeleitet#
+#Aufgrund von anderen Aufträgen wird die Platine später gefräst#
+
+-08:00 - 11:30, 16.02.2022- L 4 Stunden
+#Alle SMD Bauteile an Platine gelötet#
+#aufgrund einiger pcb's größere bzw. kleinere Padflächen kurzschlüsse wären möglich#
+#mit Multimeter kontrolieren ob kurzschluss vorhanden#
+#Leiterplatte hat eine leiterbahn und eine pad nicht gefräst#
+#wurde per hand nachgefräst#
+
+-13:20 - 16:20, 16.02.2022- WE -> Zeit außerhalb der Arbeitszeit in der Schule (3h 00Min)
+#Weitergelötet Fehler wie die edge cuts an der Seite von dem usb ist zu knapp#
+#weggeschnitten ein teil damit es passt#
+#keine Bohrungen an den Ecken für die Distanzen#
+
+-08:00 - 10:00, 17.02.2022- WE -> Zeit außerhalb der Arbeitszeit in der Schule (2h 00Min)
+#Footprint vom usb ist falsch ist male obwohl es female sein sollte#
+#Footprint vom 24V relai ist falsch, obwohl das richtige ausgewählt wurde (sanyou a)#
+#Footprint vom mosfet ist falsch -> GDS Abfolge im footprint DGS#
+#wenn es geht fliegender Aufbau mit Drähten zum Board :/#
+#Bohrungen für GPS-Sensor und Spule L1 zu klein -> muss nachgebohrt werden#
+
+-11:30 - 17:30, 17.02.2022- L -> Zeit außerhalb der Arbeitszeit in der Schule (2h 30Min)
+#Lösung vor usb ist female adapter kaufen#
+#an 24V relai wurden drähte angelötet und dann fliegend verbunden#
+#an den mosfets wurden drähte angelötet und dann fliegend verbunden + aufpassen auf die kontakte -> sind sehr nahe#
+#Bohrungen an Spule und anschlüsse von gps sensor nachgebohrt -> größer#
+#Bohrungen von H-Brücke nach m3 nachgebohrt -> passt perfekt#
+#Distanzen und Platzhalter angeschraubt#
+#Schraubklemmen alle angelötet außer 1 -> zu wenige gehabt#
+#Notlösung waren pinsockets -> alle pinsockets angelötet#
+#MUSS ÜBERPRÜFT WERDEN !!!#
+#Kurzschlüsse -> aufgrund der footprints sehr gut möglich#
+#Lötstellen -> einige Lötstellen nicht richtig angelötet#
+#Bohrung -> Bohrung an der Oberseite machen für die Stabilisierung mit Distanzen#
+#Für v2!!!#
+#footprints von Spule, mosfet, relai 24V, Kondensatoren, Dioden, Bohrungen aller module#
+#außerdem Position der Schraubklemmen, sowie die PinSockets#
+#Getestet wird nächste Woche!#
+
+KW 8:
+
+-12:30 - 13:30, 21.02.2022- L -> Zeit außerhalb der Arbeitszeit in der Schule (1h 00Min)
+#Platine auf kurzschlüsse überprüfen oder nicht verbundene Bauteile#
+#Diode an Step down oben nicht verbunden#
+#Leiterbahn unter jeder diode wegkratzen#
+#pin von stromsensor -> vcc eingang ist auf gnd kurzgeschlossen#
+#Schraubklemme von 5V stepdown umdrehen#
+#Schraubklemme beim usb anschluss umdrehen#
+
+-08:00 - 11:30, 22.02.2022- WE 4 Stunden
+#Dioden neu gelötet#
+#Leiterbahnen verzinnt#
+#Kurzschlüsse ausgelötet#
+#Schraubklemmen neu platziert#
+#PLATINE FERTIG#
+#Muss noch getestet werden!#
+
+-08:00 - 11:30, 23.02.2022- L 4 Stunden
+#Verbindungsplan erstellt auf papier#
+#Doku Step-Down#
+#Shottky-Diode#
+
+-11:30 - 16:00, 24.02.2022- L -> Zeit außerhalb der Arbeitszeit in der Schule (1h 00Min)
+#Freilaufdiode -> schützt vor Spannungsspitzen und induktiver Gleichspannungslast#
+#Shottky-Diode -> niedriger Spannungsabfall und schnelles Schalten#
+#maximale Gesamtverlustleistung für step down 5 V -> Ptot = 0,66W#
+#maximale Gesamtverlustleistung für step down 3,3 V -> Ptot = 0,12W#
+#Fehler entdeckt#
+#Kurzschluss an kleinen solarpanel pins#
+#GPS-Sensor falsche Pinbelegung bedeutet falsch verbundene PINS alle außer VCC#
+
+KW 9:
+
+-08:00 - 11:30, 01.03.2022- WE 4 Stunden
+#GPS Sensor Pins richtig angelötet mit Kabel#
+#Shottky-Diode Doku fertig#
+#Kondensatoren Doku begonnen#
+
+KW 11:
+
+-08:00 - 11:30, 15.03.2022- WE 4 Stunden
+#Doku#
+#Kondensatoren#
+#Spulen#
+#Relai#
+#MOSFET#
+
+KW 12:
+
+-08:00 - 14:10, 23.03.2022- L 6 Stunden
+#Doku#
+#Dimensionierung#
+#Layout#
+#Simulation angefangen#
+
+-12:30 - 16:00, 23.03.2022- L 4 Stunden
+#Doku#
