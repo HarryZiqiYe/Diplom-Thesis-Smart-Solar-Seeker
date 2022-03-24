@@ -1,0 +1,22 @@
+Circuit: * C:\Users\steve\OneDrive\Desktop\Schule\5AHEL\Maturaprojekt\Simulation\Draft2.asc
+
+WARNING: Less than two connections to node OUT.  This node is used by A1.
+Direct Newton iteration for .op point succeeded.
+
+Date: Tue Nov 09 13:19:26 2021
+Total elapsed time: 1.718 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 60195
+traniter = 60192
+tranpoints = 30097
+accept = 19428
+rejected = 10669
+matrix size = 3
+fillins = 0
+solver = Alternate
+Matrix Compiler1:       3 opcodes  0.1/[0.1]/0.1
+Matrix Compiler2: off  [0.1]/0.2/0.2
+
