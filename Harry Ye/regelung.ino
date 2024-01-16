@@ -48,7 +48,7 @@ void setup() {
   ADC_OFF    - Analog/Digital Converter switched off
   CONTINUOUS  - Continuous measurements (DEFAULT)
   */
-  // ina219.setMeasureMode(CONTINUOUS); // choose mode and uncomment for change of default
+  ina219.setMeasureMode(CONTINUOUS); // choose mode and uncomment for change of default
   
   /* Set PGain
   * Gain *  * Shunt Voltage Range *   * Max Current *
@@ -79,7 +79,12 @@ void setup() {
   pinMode(linpwm, OUTPUT);
 }
 
-int n = 0;
+int upflag = 0;
+int downflag = 0;
+
+int current_position = 0;
+int highest_position = 0;
+int diff_position = 0;
 int linflag = 0;
 float oldcurrent_mA = 0.0;
 float avrcurrent_mA = 0.0;
@@ -88,9 +93,15 @@ float loadVoltage_V = 0.0;
 float busVoltage_V = 0.0;
 float current_mA = 0.0;
 float power_mW = 0.0; 
+float highestcurrent_mA = 0.0;
 bool ina219_overflow = false;
+float tolerance1 = 10;
+float tolerance2 = 10;
 
 void loop() {
+  current_mA = 0.0;
+  avrcurrent_mA = 0.0;
+  oldcurrent_mA = 0.0;
   digitalWrite(lin1, LOW);
   digitalWrite(lin2, LOW);
   
@@ -122,108 +133,122 @@ void loop() {
   */
   /*
   switch(Time){
-    case 8:
-      maxcurrent_mA = 100;
+    case 8:                 //8 Uhr
+      maxcurrent_mA = 80;
       break;
-    case 9:
-      maxcurrent_mA = 190;
+    case 9:                 //9 Uhr
+      maxcurrent_mA = 170;
       break;
-    case 10:
+    case 10:                //10 Uhr
+      maxcurrent_mA = 220;
+      break;
+    case 11:                //11 Uhr
       maxcurrent_mA = 240;
       break;
-    case 11:
-      maxcurrent_mA = 260;
+    case 12:                //12 Uhr
+      maxcurrent_mA = 270;
       break;
-    case 12:
-      maxcurrent_mA = 290;
-      break;
-    case 13:
-      maxcurrent_mA = 260;
-      break;
-    case 14:
+    case 13:                //13 Uhr
       maxcurrent_mA = 240;
       break;
-    case 15:
-      maxcurrent_mA = 190;
+    case 14:                //14 Uhr
+      maxcurrent_mA = 220;
       break;
-    case 16:
-      maxcurrent_mA = 100;
+    case 15:                //15 Uhr
+      maxcurrent_mA = 170;
       break;
-    default:
-      maxcurrent_mA = 0;
+    case 16:                //16 Uhr
+      maxcurrent_mA = 80;
+      break;
+    default:                //keine gerade Uhrzahl
+      maxcurrent_mA = 1000;
       break;
   }
   */
-  
-  while(current_mA < 10 && n <= 360){
-    current_mA = ina219.getCurrent_mA();
-    Serial.print("Current[mA]: "); Serial.println(current_mA);
-    Serial.println("clockwise");
-    myStepper.step(1);
-    n++;
-    Serial.println(n);
-    if(oldcurrent_mA > (current_mA+0.2)){
-      Serial.print("OLDCurrent[mA]: "); Serial.println(oldcurrent_mA);
-      Serial.print("Current[mA]: "); Serial.println(current_mA);
-      Serial.println("counterclockwise");
-      myStepper.step(-1);
-      n--;
-      Serial.println(n);
-      linflag = 1;
-      break;
+  while(current_position <= 360){                                         //Wird wiederholt so lange bis mehr als 360 Schritte zurückgelegt wurden
+    current_mA = ina219.getCurrent_mA();                                  //Strom messen
+    Serial.print("Current[mA]: "); Serial.println(current_mA);            //Strom ausgeben
+    Serial.println("clockwise");                                          //Motor in Uhrzeigersinn
+    myStepper.step(1);                                                    //geht ein Schritt 
+    current_position++;                                                   //jetzige Position inkrementiert
+    Serial.println(current_position);                                     //Positionsausgabe
+    if(oldcurrent_mA < current_mA){                                       //Wenn der jetzige Strom größer ist als der ältere Strom
+      highestcurrent_mA = current_mA;                                     //Dann ist jetziger Strom der höchste
+      highest_position = current_position;                                //jetzige Position wird gespeichert
     }
-    oldcurrent_mA = current_mA;
+    if(oldcurrent_mA > (current_mA+tolerance1)){                          //Wenn der jetzige Strom kleiner ist als der ältere Strom mit Toleranz
+      Serial.print("OLDCurrent[mA]: "); Serial.println(oldcurrent_mA);    //älterer Strom Ausgabe
+      Serial.print("Current[mA]: "); Serial.println(current_mA);          //Jetziger Strom Ausgabe
+      diff_position = current_position - highest_position;                //Differenz zwischen jetzige und bester Position
+      Serial.println("counterclockwise");                                 //Schrittmotor dreht zurück
+      myStepper.step(-(diff_position));                                   //Dreht sich zurück zur Höchststelle
+      current_position -= diff_position;                                  //Jetzige Position ausrechnen
+      Serial.println(current_position);                                   //Ausgeben
+      linflag = 1;                                                        //Flag setzen
+      break;                                                              //Aus der Schleife ausbrechen
+    }
+    oldcurrent_mA = current_mA;                                           //älterer Wert wird mit neuem ersetzt
   }
   
   oldcurrent_mA = 0;
                                             
-  while(linflag == 1){
-    if(n >= 180){
-      current_mA = ina219.getCurrent_mA();
+  while(linflag == 1){                                                    //Wiederholt nur so lange flag 1
+    if(current_position >= 180){                                          //unter 180 Schritte sein
+      current_mA = ina219.getCurrent_mA();                                
       Serial.print("Current[mA]: "); Serial.println(current_mA);
-      Serial.println("down");
-      digitalWrite(lin1, HIGH);
-      digitalWrite(lin2, LOW);
-      analogWrite(linpwm, 100);
-      if(oldcurrent_mA > (current_mA+0.2)){
+      if(downflag == 0){                                                  //flag muss 0 sein
+        Serial.println("down");
+        digitalWrite(lin1, LOW);                                          //Motor einziehen
+        digitalWrite(lin2, HIGH);
+        analogWrite(linpwm, 100);                                         //Geschwindigkeit
+        Serial.print("Current[mA]: "); Serial.println(current_mA);
+        downflag = 1;
+      }
+      
+      if(oldcurrent_mA > (current_mA+tolerance2)){                        //Wenn der jetzige Strom kleiner ist als der ältere Strom mit Toleranz
         Serial.print("OLDCurrent[mA]: "); Serial.println(oldcurrent_mA);
         Serial.print("Current[mA]: "); Serial.println(current_mA);
         Serial.println("up");
-        digitalWrite(lin1, LOW);
-        digitalWrite(lin2, HIGH);
-        delay(100);
+        digitalWrite(lin1, HIGH);                                         //Fährt wieder aus für eine kurze Zeit
         digitalWrite(lin2, LOW);
+        delay(1000);
+        digitalWrite(lin1, LOW);
+        Serial.print("Current[mA]: "); Serial.println(current_mA);
         linflag = 0;
+        downflag = 0;
         break;
       }
+      
     oldcurrent_mA = current_mA;
     }
     else{
       current_mA = ina219.getCurrent_mA();
       Serial.print("Current[mA]: "); Serial.println(current_mA);
-      Serial.println("up");
-      digitalWrite(lin1, LOW);
-      digitalWrite(lin2, HIGH);
-      analogWrite(linpwm, 100);
-      if(oldcurrent_mA > (current_mA+0.2)){
+      if(upflag == 0){
+        Serial.println("up");
+        digitalWrite(lin1, HIGH);                                         //Motor fährt aus
+        digitalWrite(lin2, LOW);
+        analogWrite(linpwm, 100);
+        Serial.print("Current[mA]: "); Serial.println(current_mA);
+        upflag = 1;
+      }
+      if(oldcurrent_mA > (current_mA+tolerance2)){
         Serial.print("OLDCurrent[mA]: "); Serial.println(oldcurrent_mA);
         Serial.print("Current[mA]: "); Serial.println(current_mA);
         Serial.println("down");
-        digitalWrite(lin1, HIGH);
+        digitalWrite(lin1, LOW);                                          //Motor zieht sich für eine kurze Zeit ein
+        digitalWrite(lin2, HIGH);
+        delay(1000);
         digitalWrite(lin2, LOW);
-        delay(100);
-        digitalWrite(lin1, LOW);
+        Serial.print("Current[mA]: "); Serial.println(current_mA);
         linflag = 0;
+        upflag = 0;
         break;
       }
     oldcurrent_mA = current_mA;
     }
   }
-
-  while(true){
-  }
-  
-  if(n >= 360){
+  if(current_position >= 360){                                            //Nach 360 Schritte zurückdrehen
     Serial.println("counterclockwise");
     myStepper.step(-100);
     myStepper.step(-100);
