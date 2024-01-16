@@ -1,6 +1,6 @@
 # Smart-Solar-Seeker
 
-Abstract
+### Abstract
 
 The paper hand in deals with the tracking of the sun, which follows the position of the sun, to get the maximum efficiency. Solar technology is a renewable energy source, that contributes to a sustainable environment. In contrast to flat lying solar panels, it is possible to produce more energy through tracking. A prototype has been developed and constructed which performs mostly all our tasks that we need.
 
